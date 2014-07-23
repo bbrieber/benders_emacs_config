@@ -34,7 +34,7 @@ some pacakges are installed via apt in ubuntu ...
   
   
 you can install missing packages by typing 
-               M-X package-install           
+               M-x package-install           
                <package_name>
                
 
