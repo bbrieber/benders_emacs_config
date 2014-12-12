@@ -1,4 +1,4 @@
-(load-file "emacs-for-python/epy-init.el")
+(load "emacs-for-python/epy-init.el")
 (setq-default py-shell-name "ipython")
 (setq-default py-which-bufname "IPython")
 ; use the wx backend, for both mayavi and matplotlib
