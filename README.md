@@ -5,19 +5,31 @@ A set of different configuration files for my emacs
 
 used with emacs24
 
+
 usage include the needed files into your .emacs like this:
 
+(add-to-list 'load-path "~/config/emacs")
+(load "benders-config")
+(benders-complete-config)
 
-(load "~/benders_emacs_config/java")   
-(load "~/benders_emacs_config/latex")   
-(load "~/benders_emacs_config/prolog")   
-(load "~/benders_emacs_config/common-lisp")   
-(load "~/benders_emacs_config/project")   
-(load "~/benders_emacs_config/ros")   
-(load "~/benders_emacs_config/python")   
-(load "~/benders_emacs_config/general")   
+it is important to add the config folder to your load-path!!!
+
+instead of loading the complete config you can also load a sub-config
+with 
+
+(benders-latex)
+(benders-java)
+(benders-ros)
+(benders-common)
+(benders-lisp)
+(benders-project)
+(benders-prolog)
+(benders-python)
 
 
+I designed this configuration for my personal needs.
+If someone finds it useful fell free to do what ever you like with my code.
+most of the configuration is taken from the documentation of the used submodules
 
 
 
