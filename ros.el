@@ -1,3 +1,4 @@
+(push "/usr/share/emacs23/site-lisp/rosemacs-el" load-path) 
 
 (require 'rosemacs)
 (require 'slime)

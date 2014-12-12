@@ -1,6 +1,7 @@
 
 
-(load "~/.emacs.d/prolog.el")
+;;(load "~/.emacs.d/prolog.el")
+;;(load "~/.prolog.el")
 
 
 (autoload 'run-prolog "prolog" "Start a Prolog sub-process." t)
